@@ -19,11 +19,20 @@
 	<PackageReadmeFile>README.md</PackageReadmeFile>
 	<PackageTags>ADFS;WIA;Authentication;Microsoft.Identity.Web;Azure;Entra Id;SignedAssertion</PackageTags>
   </PropertyGroup>
-
+	<PropertyGroup>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Identity.Web" Version="3.14.1" />
   </ItemGroup>
-
+<PropertyGroup>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+</PropertyGroup>
+	<PropertyGroup>
+		<RepositoryUrl>https://github.com/rosenbom/ADFSAuthenticationProvider</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageProjectUrl>https://github.com/rosenbom/ADFSAuthenticationProvider</PackageProjectUrl>
+	</PropertyGroup>
   <ItemGroup>
     <None Update="README.md">
       <Pack>True</Pack>
